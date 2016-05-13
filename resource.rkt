@@ -33,12 +33,7 @@
   (MAC-check-char-res (name mood)
                       ("Joey" 'happy "joey-happy.png")
                       ("Yugi" 'happy "yugi-happy.png")
-                      ("Seto Kaiba" 'happy "seto-happy.png")
-                      ("Fille aux cheveux bruns" 'happy "haruhi-happy.png")
-                      ("Téa" 'happy "tea-happy.png")
-                      ("Judai" 'happy "judai-happy.png")
-                      ("Bakura" 'happy "bakura-happy.png")
-                      ("Beau gosse" 'happy "phoenix-happy.png")))
+                      ("Seto Kaiba" 'happy "seto-happy.png")))
 
 (define (get-background-resource resource)
   (MAC-check-bkg-res (resource)
